@@ -1,0 +1,35 @@
+body{
+	background: url('po.jpg') no-repeat;
+	background-size: cover;
+	font-color:white;
+}
+ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	width: 450px;
+	height: 75px;
+	background-color:white;
+	font-size:30px;
+	opacity:.9;
+	text-align:center;
+}
+ul li a{
+	text-decoration:none;
+	display:block;
+}
+a{	color:black;
+}
+ul li a:hover{
+	background-color:gray;
+}
+ul li ul li {
+display:none;
+}
+ul li:hover ul li{
+display:block;
+}
